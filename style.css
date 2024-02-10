@@ -20,4 +20,84 @@ h3 {
 
     margin-top: 12px;
 }
+/* making header with two colors */
+.header-main span {
+    color: #ff9000;
+}
+
+.header-aboutme {
+    color: #ff9000;
+}
+
+/* decorating links */
+
+.navigation {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    
+
+    margin-top: 12px;
+    padding: 20px;
+    background-color: #555;
+    border-radius: 12px;
+    
+    width: 100%;
+}
+
+navigation li {
+    list-style: none; 
+      
+}
+
+/* using pseudocode of links and styling for different states */
+.link:link,
+.link:visited {
+    text-decoration: none; 
+    color: #fff; 
+    color:  #ff9000;
+
+    font-size: 22px;
+
+    transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+    color: #cac9de;
+}
+
+/*************************************************************************************************/
+/***********************************ABOUT ME*******************************************/
+.section-aboutme {
+    margin: auto;
+    
+    text-align: center ;
+    margin-bottom: 32px;
+
+}
+
+.section-aboutme img {
+    width: 40%;
+
+    height: 20%;
+    margin-bottom: 12px;
+    
+    object-fit: cover;
+}
+
+/* decorating the paragraph */
+.section-aboutme p {
+    text-align: left;
+    font-size: 16px;
+
+    padding: 30px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section-aboutme p span {
+    color: #ff9000;
+}
+
 
