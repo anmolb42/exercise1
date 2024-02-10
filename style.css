@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+h3 {
+    color: #ff9000;
+}
+
+.g-width {
+    width: 80%;
+}
+
+.header {
+    margin: 16px auto;
+    flex-direction: column;
+
+    margin-top: 12px;
+}
+
