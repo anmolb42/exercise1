@@ -200,4 +200,10 @@ textarea {
     color: #333;
     transition: border-color 0.3s;
 }
+/* using pseudocodes of input to decorate the form */
+input:focus,
+textarea:focus {
+    border-color: rgb(93, 41, 183);
+    box-shadow: 0 0 8px #ffa500 ;
+}
 
